@@ -1,41 +1,48 @@
-# [Your Name] - Data Analysis Portfolio
+# Lilly Adjei - GRC, Cybersecurity & AWS Portfolio
 
-Welcome! This repository contains the complete template for a professional, one-page data analysis portfolio website, hosted for free on GitHub Pages.
+Welcome! This repository contains the complete template for a professional, one-page portfolio website showcasing expertise in Governance, Risk, Compliance (GRC), Cybersecurity, and Amazon Web Services (AWS) solutions.
+
+---
 
 ## About This Portfolio Template
 
-This portfolio is designed to demonstrate skills in:
-- Data visualization and storytelling
-- Data modeling and analysis
-- Creating interactive, professional dashboards
-- Transforming complex data into actionable insights
+This portfolio is strategically designed to demonstrate specialized skills in:
+- **Cloud Security Architecture** and deployment on AWS.
+- **Governance, Risk, and Compliance (GRC)** strategy and implementation (e.g., ISO 27001, SOC 2).
+- **Security Automation (SecOps)** using Infrastructure-as-Code (IaC) and scripting.
+- Translating complex security requirements into actionable, technical controls.
+
+---
 
 ## 🚀 Projects
 
-This template is set up to showcase your best work. You can easily customize the project cards in the `index.html` file.
+This template is set up to showcase your best security and cloud work. Customize the project cards in the `index.html` file to reflect your technical contributions.
 
-### Project Title One
-*A brief description of your project, the tools used, and the key insights derived.*
+### AWS Compliance Baseline with CIS
+*Demonstrating IaC (Terraform) to enforce security configuration standards (CIS Benchmarks) using AWS Config and reducing configuration drift.*
 
-### Project Title Two
-*A brief description of your project, the tools used, and the key insights derived.*
+### Cloud Incident Response Playbook
+*A project detailing a tested, automated incident response process leveraging AWS native services like GuardDuty and Lambda for remediation.*
 
-### Project Title Three
-*A brief description of your project, the tools used, and the key insights derived.*
+### Secure VPC and Network Segmentation
+*Showcasing architectural design skills for building a highly secure, multi-tier AWS VPC with strict network access control policies (NACLs/Security Groups).*
 
+---
 
 ## 🛠️ Skills
 
-Update the `index.html` file to reflect your personal technical skillset. The template is organized into key categories:
+Update the `index.html` file to reflect your personal technical skillset. The template is organized into key specialized categories:
 
-- **Data Visualization**: Power BI, Tableau, Matplotlib, etc.
-- **Data Analysis**: SQL, Python (Pandas), R, Excel, etc.
-- **Data Modeling**: Power Query, DAX, Star Schema Design, etc.
-- **Tools**: List any other relevant tools like Power BI Service, specific cloud platforms, etc.
+- **Cybersecurity & GRC**: Risk Assessment (NIST RMF), Security Policy, ISO 27001, Threat Modeling, Compliance Auditing.
+- **Cloud Platform (AWS)**: VPC, IAM, GuardDuty, Security Hub, Config, CloudFormation/CDK.
+- **SecOps & Automation**: Terraform, Python (Boto3), Bash Scripting, CI/CD Integration, Linux.
+- **Tools & Systems**: SIEM/Logging, Vulnerability Scanners (Nmap/Tenable), Git.
+
+---
 
 ## 💡 How to Use This Template
 
-Creating your own portfolio from this template is a simple, four-step process.
+Creating your specialized portfolio from this template is a simple, four-step process.
 
 ### 1. Create a New Repository from this Template
 Click the green **"Use this template"** button at the top of this repository page, then select **"Create a new repository"**.
@@ -46,16 +53,17 @@ This is the most important step. To turn your portfolio into a live website, you
 *(Replace `your-username` with your actual GitHub username.)*
 
 ### 3. Customize Your Portfolio
-Open the `index.html` file and begin personalizing it. The file contains helpful `<!--💡UPDATE: ... -->` comments to guide you on where to change:
-- Your name and title
-- Social media links
-- The "About Me" section
-- Your project titles, descriptions, and links
-- Your list of skills
+Open the `index.html` file and begin personalizing it. The file contains helpful `` comments in the original template to guide you on where to change:
+- **Your name and title** (e.g., 'GRC Specialist')
+- Social media links (consider adding a blog/Medium for security write-ups)
+- The **"About Me"** section to focus on cloud security.
+- Your project titles, descriptions, and links.
+- Your specific list of GRC/Cybersecurity/AWS skills.
 
 ### 4. Add Your Files
-- Upload your profile photo and project preview images to the `assets/images/` folder.
-- Upload your CV (e.g., in PDF format) to the `assets/` folder.
+- Upload your profile photo and project preview images (e.g., architecture diagrams, compliance reports) to the `assets/images/` folder.
+- Upload your **CV/Resume** (e.g., in PDF format) to the `assets/` folder.
 - Create your favicon and add it to the root folder.
 
 Once you commit your changes, your new portfolio website will be live at `https://your-username.github.io` within a few minutes!
+
