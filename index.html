@@ -4,43 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!--💡UPDATE: Change the title to your name-->
-    <title>Your Name | Data Analysis Portfolio</title>
-      
-    <!--💡UPDATE: Add your favicon here. You can generate one at realfavicongenerator.net-->
+    <title>Lilly Adjei | GRC, Cybersecurity & Cloud Portfolio</title>
+    
     <link rel="icon" type="image/png" href="/favicon-32x32.png">
     <link rel="apple-touch-icon" href="/favicon-32x32.png">
     
-    <!-- Google Fonts for Elegant Typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
     
-    <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     
-    <!-- Your Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-<!-- HEADER SECTION -->
 <header>
     <div class="container">
-        <!--💡UPDATE: Change to your name and title-->
-        <h1>Your Name</h1>
-        <p>Data Analyst | Power BI Developer | Your Title Here</p>
+        <h1>Alex Riley</h1>
+        <p>Cybersecurity Analyst | GRC Specialist | AWS Certified</p>
         <div class="social-links">
-            <!--💡UPDATE: Add your social media links and CV file-->
             <a href="[YOUR_LINKEDIN_URL]" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
             <a href="[YOUR_GITHUB_URL]" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-            <a href="[YOUR_YOUTUBE_URL]" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
-            <a href="assets/Your_Name_CV.pdf" download title="Download CV"><i class="fas fa-file-arrow-down"></i></a>
+            <a href="[YOUR_BLOG/MEDIUM_URL]" target="_blank" title="Blog/Medium"><i class="fab fa-medium"></i></a>
+            <a href="assets/Alex_Riley_CV.pdf" download title="Download CV"><i class="fas fa-file-arrow-down"></i></a>
         </div>
     </div>
 </header>
 
-<!-- NAVIGATION -->
 <nav>
     <div class="container">
         <ul>
@@ -52,80 +43,68 @@
     </div>
 </nav>
 
-<!-- ABOUT SECTION -->
 <section id="about" class="section">
     <div class="container">
         <h2>About Me</h2>
         <div class="about-content">
-            <!--💡UPDATE: Change the image to your own profile photo in assets/images/-->
-            <img src="assets/images/profile-placeholder.jpg" alt="Your Name" class="profile-photo">
+            <img src="assets/images/profile-placeholder.jpg" alt="Alex Riley" class="profile-photo">
             <div class="about-text">
-                <!--💡UPDATE: Write your own 'About Me' text here-->
-                <p> I'm a data professional with expertise in transforming complex datasets into actionable insights. My work focuses on creating interactive visualizations and data-driven stories that help organizations make informed decisions.</p>
-                <p>With experience in Power BI, SQL, and data modeling, I specialize in developing comprehensive reports that reveal hidden patterns and trends in data. This portfolio showcases my projects across various sectors.</p>
+                <p> I am a **Cybersecurity and GRC specialist** focused on building secure, compliant, and resilient cloud infrastructures. My expertise lies in translating complex regulatory requirements (like SOC 2, ISO 27001) into practical, automated controls, particularly within the **Amazon Web Services (AWS)** ecosystem.</p>
+                <p>This portfolio highlights my work in **risk assessment, policy development, security automation (SecOps)**, and designing secure network architectures in the cloud. I leverage tools like Terraform, Python, and AWS native services to drive security maturity.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- PROJECTS SECTION -->
 <section id="projects" class="section">
     <div class="container">
-        <h2>My Projects</h2>
+        <h2>Security & Cloud Projects</h2>
         <div class="projects-grid">
 
-            <!--💡UPDATE: Replace this with your own project. Add as many as you like!-->
-            <!-- Project 1 -->
-             <div class="project-card">
-                <!--💡UPDATE: Add a preview image of your project to assets/images/ -->
-                <img src="assets/images/project-placeholder-1.jpg" alt="Project One Preview">
+            <div class="project-card">
+                <img src="assets/images/project-placeholder-1.jpg" alt="GRC Automation Project">
                 <div class="project-card-content">
-                    <h3>Project Title One</h3>
-                    <p>A brief, one or two-sentence description of your project, what it does, and the tools you used.</p>
+                    <h3>AWS Compliance Baseline with CIS</h3>
+                    <p>Designed and deployed an automated AWS baseline using **Terraform and AWS Config** to enforce CIS standards, significantly reducing security configuration drift.</p>
                     <div class="project-buttons">
-                        <!--💡UPDATE: Add link to your project's code/documentation on GitHub-->
-                        <a href="[YOUR_GITHUB_PROJECT_URL]" target="_blank" class="btn">Documentation</a>
-                        <!--💡UPDATE: Add link to your live dashboard (e.g., Power BI, Tableau Public)-->
+                        <a href="[YOUR_GITHUB_PROJECT_URL]" target="_blank" class="btn">View Code/Docs</a>
+                        <a href="[YOUR_REPORT_URL]" target="_blank" class="btn btn-secondary">Case Study Report</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/images/project-placeholder-2.jpg" alt="Incident Response Project">
+                <div class="project-card-content">
+                    <h3>Cloud Incident Response Playbook</h3>
+                    <p>Developed and tested a simulated **cloud-native incident response plan** for an AWS environment utilizing **AWS GuardDuty and Lambda** for automated remediation.</p>
+                    <div class="project-buttons">
+                        <a href="[YOUR_GITHUB_PROJECT_URL]" target="_blank" class="btn">View Playbook</a>
+                        <a href="[YOUR_LIVE_DEMO_URL]" target="_blank" class="btn btn-secondary">Simulated Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/images/project-placeholder-3.jpg" alt="Vulnerability Management Project">
+                <div class="project-card-content">
+                    <h3>Vulnerability Scan & Reporting System</h3>
+                    <p>Created a system using **Python and Nmap/Tenable** to schedule scans, parse results, and generate executive reports, improving remediation efficiency by 30%.</p>
+                    <div class="project-buttons">
+                        <a href="[YOUR_GITHUB_PROJECT_URL]" target="_blank" class="btn">View Script</a>
                         <a href="[YOUR_LIVE_DASHBOARD_URL]" target="_blank" class="btn btn-secondary">View Dashboard</a>
                     </div>
                 </div>
             </div>
 
-            <!-- Project 2 -->
             <div class="project-card">
-                <img src="assets/images/project-placeholder-2.jpg" alt="Project Two Preview">
+                <img src="assets/images/project-placeholder-4.jpg" alt="Secure Network Design Project">
                 <div class="project-card-content">
-                    <h3>Project Title Two</h3>
-                    <p>A brief, one or two-sentence description of your project, what it does, and the tools you used.</p>
+                    <h3>Secure VPC and Network Segmentation</h3>
+                    <p>Architected a **Highly Available and Secure AWS VPC** with private/public subnets, NAT Gateways, and strict Security Group/NACL policies for zero-trust segmentation.</p>
                     <div class="project-buttons">
-                        <a href="[YOUR_GITHUB_PROJECT_URL]" target="_blank" class="btn">Documentation</a>
-                        <a href="[YOUR_LIVE_DASHBOARD_URL]" target="_blank" class="btn btn-secondary">View Dashboard</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 3 -->
-            <div class="project-card">
-                <img src="assets/images/project-placeholder-3.jpg" alt="Project Three Preview">
-                <div class="project-card-content">
-                    <h3>Project Title Three</h3>
-                    <p>A brief, one or two-sentence description of your project, what it does, and the tools you used.</p>
-                    <div class="project-buttons">
-                        <a href="[YOUR_GITHUB_PROJECT_URL]" target="_blank" class="btn">Documentation</a>
-                        <a href="[YOUR_LIVE_DASHBOARD_URL]" target="_blank" class="btn btn-secondary">View Dashboard</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 4 -->
-            <div class="project-card">
-                <img src="assets/images/project-placeholder-4.jpg" alt="Project Four Preview">
-                <div class="project-card-content">
-                    <h3>Project Title Four</h3>
-                    <p>A brief, one or two-sentence description of your project, what it does, and the tools you used.</p>
-                    <div class="project-buttons">
-                        <a href="[YOUR_GITHUB_PROJECT_URL]" target="_blank" class="btn">Documentation</a>
-                        <a href="[YOUR_LIVE_DASHBOARD_URL]" target="_blank" class="btn btn-secondary">View Dashboard</a>
+                        <a href="[YOUR_GITHUB_PROJECT_URL]" target="_blank" class="btn">Architecture Diagram</a>
+                        <a href="[YOUR_LIVE_DASHBOARD_URL]" target="_blank" class="btn btn-secondary">Terraform Code</a>
                     </div>
                 </div>
             </div>
@@ -134,52 +113,47 @@
     </div>
 </section>
 
-<!-- SKILLS SECTION -->
 <section id="skills" class="section">
     <div class="container">
         <h2>Technical Skillset</h2>
         <div class="skills-table">
             
-            <!--💡UPDATE: Customize your skills in each category-->
-            <!-- Column 1: Data Visualization -->
             <div class="skill-column">
                 <div class="skill-header">
-                    <i class="fas fa-chart-pie"></i>
-                    <h3>Data Visualization</h3>
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Cybersecurity & GRC</h3>
                 </div>
                 <ul class="skill-list">
-                    <li>Power BI</li>
-                    <li>Tableau</li>
-                    <li>Looker Studio</li>
-                    <li>Excel Dashboards</li>
+                    <li>Risk Assessment (NIST RMF)</li>
+                    <li>Security Policy Development</li>
+                    <li>ISO 27001 / SOC 2 Compliance</li>
+                    <li>Vulnerability Management</li>
                 </ul>
             </div>
 
-            <!-- Column 2: Data Analysis -->
             <div class="skill-column">
                 <div class="skill-header">
-                    <i class="fas fa-search-plus"></i>
-                    <h3>Data Analysis</h3>
+                    <i class="fab fa-aws"></i>
+                    <h3>Cloud Platform (AWS)</h3>
                 </div>
                 <ul class="skill-list">
-                    <li>SQL</li>
-                    <li>Advanced Excel</li>
-                    <li>Python (Pandas)</li>
-                    <li>Google Sheets</li>
+                    <li>VPC, EC2, S3, IAM</li>
+                    <li>GuardDuty, CloudWatch, Config</li>
+                    <li>Serverless (Lambda, API Gateway)</li>
+                    <li>Security Hub & Control Tower</li>
                 </ul>
             </div>
 
-            <!-- Column 3: Data Modeling & ETL -->
             <div class="skill-column">
                 <div class="skill-header">
-                    <i class="fas fa-cogs"></i>
-                    <h3>Data Modeling & ETL</h3>
+                    <i class="fas fa-terminal"></i>
+                    <h3>SecOps & Automation</h3>
                 </div>
                 <ul class="skill-list">
-                    <li>Power Query (M)</li>
-                    <li>DAX</li>
-                    <li>Star Schema Design</li>
-                    <li>ETL Processes</li>
+                    <li>Infrastructure-as-Code (Terraform)</li>
+                    <li>Scripting (Python, Bash)</li>
+                    <li>CI/CD Integration</li>
+                    <li>Linux/Command Line</li>
                 </ul>
             </div>
 
@@ -187,16 +161,13 @@
     </div>
 </section>
 
-<!-- CONTACT FORM SECTION -->
 <section id="contact" class="section">
     <div class="container">
         <h2>Send me a message</h2>
         
-        <!--💡UPDATE: Go to formsubmit.co and replace the email with your own-->
         <form action="https://formsubmit.co/your-email@example.com" method="POST" class="contact-form">
-            <p> Interested in collaborating or have questions about my work? I'd love to hear from you!</p>
+            <p> Interested in building secure cloud environments or discussing GRC strategy? Let's connect!</p>
 
-            <!-- Form Fields -->
             <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name" placeholder="Your name" required>
@@ -214,18 +185,15 @@
                 <textarea name="message" id="message" rows="6" placeholder="Your message" required></textarea>
             </div>
             
-            <!-- Submit Button -->
             <button type="submit" class="btn">Send Message</button>
 
         </form>
     </div>
 </section>
 
-<!-- FOOTER -->
 <footer>
     <div class="container">
-        <!--💡UPDATE: Change the year and your name-->
-        <p>&copy; 2025 Your Name. All rights reserved.</p>
+        <p>&copy; 2025 Alex Riley. All rights reserved. | Security Focused.</p>
     </div>
 </footer>
 
